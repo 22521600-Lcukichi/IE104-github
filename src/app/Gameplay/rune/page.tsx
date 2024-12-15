@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "@/components/Main/Banner";
+import Banner from "@/components/Banner";
 import NewList from "@/components/NewList";
 import Button_Xemthem from "@/components/Button_Xemthem";
 import Sidebar from "@/components/SideBar";
@@ -8,8 +8,7 @@ import SearchBar from "@/components/Searchbar";
 import Role_heroes from "@/components/Role_heroes";
 import HeroShowcase from "@/components/HeroDisplay";
 import SearchBar_Gameplay from "@/components/Search_Gameplay";
-import Maincontent_Rune from "@/components/Maincontent_Support";
-import Maincontent_Equip from "@/components/Maincontent_Equip";
+import Rune from "@/components/Rune";
 import { FaHome } from "react-icons/fa";
 import Link from "next/link";
 export default function Home() {
@@ -34,7 +33,7 @@ export default function Home() {
                     </div>
                     
                 </div>
-                <Maincontent_Equip />
+               <Rune />
             </main>
         </div>
       </div>
