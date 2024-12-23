@@ -38,7 +38,7 @@ const Articles_left = () => {
   return (
     <div >
       <h1 className="text-4xl text-yellow-500 font-bold text-center mb-8">BÀI VIẾT KHÁC</h1>
-      <div className="flex flex-col space-y-2">
+      <div className="grid grid-cols-1 gap-4">
         {newsItems.map((item, index) => (
           <Link
             key={index}

@@ -83,10 +83,12 @@ export default function Navbar() {
    <div  className="mx-auto flex  w-full max-w-7xl justify-between px-4 py-5 text-lg ">
       {/*Left side*/}
       <section  className="flex items-center gap-10 ">
-          <Image src={logo} alt ="logo" 
-            width={120}
-            height={10}
-          />
+          <Link href='/'>
+            <Image src={logo} alt ="logo" 
+              width={120}
+              height={10}
+            />
+          </Link>
           <div className="hidden md:flex items-center gap-4 transition-all">
           {NavItems.map((d, i) => (
             <Link
